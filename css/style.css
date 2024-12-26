@@ -1,0 +1,299 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+li{
+
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5),rgba(4, 9, 30, 0.5)), url(../images/ilustration/header-bg.jpg);
+    width: 93%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 35px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    
+}
+
+.navbox{
+    width: 85%;  
+}
+
+nav a img{
+
+    width: 150px;
+}
+.clickbg{
+
+    background-color: #04091E;
+    
+}
+
+.btndrop{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 8px;
+
+}
+
+.dropdown-menu{
+    background-color: #04091E;
+    color: white;
+    font-size: 10px;
+}
+
+.toplist{
+
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.btnx{
+    background-color: #5c9e19;
+    color: white;
+    font-size: 17px;
+    padding: 7px 25px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid white;
+
+}
+
+.box{
+
+    padding-top: 160px;
+
+}
+
+.box p{
+    color: #5c9e19;
+    letter-spacing: 5px;
+}
+
+.headbox h3{
+
+    font-size: 40px;
+}
+.headbox p{
+
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.headlist ul li:hover{
+
+    color: #5c9e19;
+    border-bottom: 2px solid black;
+}
+
+.headimg img{
+    width: 250px;
+}
+
+.make{
+
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/ilustration/service-bg.jpg);
+    width: 90%;
+    height: 370px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 45px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+}
+
+.maketext{
+
+    padding-top: 90px;
+}
+
+.boxes{
+    margin-top: -150px;
+    margin-bottom: 100px;
+}
+
+.box1{
+
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 15px;
+    box-shadow: 0 10px 0 rgba(128, 128, 128, 0.085);
+    
+}
+
+.stars{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.stars img{
+    width: 100px;
+}
+
+footer{
+
+    background-color: #04091E;
+    color: rgba(255, 255, 255, 0.729);
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    
+}
+.footerin{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.footerline input{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 180px;
+    height: 40px;
+    border: none;
+}
+
+
+.logo{
+    margin-left: -29px;
+}
+.footerline button{
+    background-color: #5c9e19;
+    width: 50px;
+    height: 39px;
+    margin-left: -10px;
+    border: none;
+
+}
+
+
+@media only screen and (min-width : 768px){
+
+    .headlist ul{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        margin: 0 auto;
+        
+    }
+    .headimg img{
+        width: 200px;
+    }
+    .box1{
+
+        width: 650px;
+        height: 300px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 60px;
+        padding: 15px;
+
+        
+    }
+    
+
+
+}
+
+@media only screen and (min-width : 992px){
+
+    
+nav{
+
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5),rgba(4, 9, 30, 0.5)), url(../images/ilustration/header-bg.jpg);
+    width: 93%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 35px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.headimg img{
+    width: 320px;
+}
+
+.box1{
+
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 15px;
+   
+    
+}
+
+
+footer{
+
+    background-color: #04091E;
+    color: rgba(255, 255, 255, 0.729);
+    width: 100%;
+    height: 380px;
+    margin-top: 100px;
+    
+}
+
+.footerline input{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+    border: none;
+}
+
+.logo{
+    margin-left: -7px;
+}
+
+.footerin{
+    width: 100%;
+    padding-left: 90px;
+}
+
+
+}
+
+
